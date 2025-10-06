@@ -3,6 +3,9 @@
 
 Interactive dashboard for EDA and quick ML experiments (regression/classification).
 
+🚀 **[Live Demo on Streamlit Cloud](https://streamlit.app/yourusername/streamlit-ds-dashboard)**  
+📊 Explore datasets, run ML models, and download predictions!
+
 
 ## Features
 - CSV upload or built-in sample datasets (California Housing, Wine)
