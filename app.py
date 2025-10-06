@@ -170,8 +170,14 @@ else:
 
             if task == "Regression":
                 mae = mean_absolute_error(y_test, y_pred)
-                rmse = mean_squared_error(y_test, y_pred, squared=False)
+                try:
+                    # pentru scikit-learn moderne (>=0.22)
+                    rmse = mean_squared_error(y_test, y_pred, squared=False)
+                except TypeError:
+                    # pentru scikit-learn mai vechi
+                    rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
                 r2 = r2_score(y_test, y_pred)
+
                 st.subheader("📏 Metrics (Regression)")
                 st.write({"MAE": round(mae, 4), "RMSE": round(rmse, 4), "R2": round(r2, 4)})
             else:
