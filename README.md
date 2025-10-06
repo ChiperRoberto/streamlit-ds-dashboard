@@ -18,16 +18,14 @@ Interactive dashboard for EDA and quick ML experiments (regression/classificatio
 
 ### 2) EDA – histograme și corelații
 ![Histogram – numeric column](images/002-eda-hist.png)
-![Correlation matrix](images/003-eda-corr.png)
-
 ### 3) Configurare ML & metrici
-![ML panel before training](images/004-ml-config.png)
-![Regression metrics (MAE, RMSE, R²)](images/005-ml-reg-metrics.png)
-![Classification metrics & confusion matrix](images/006-ml-cls-metrics.png)
+![ML panel before training](images/003-ml-config.png)
+![Regression metrics (MAE, RMSE, R²)](images/004-ml-reg-metrics.png)
+![Classification metrics & confusion matrix](images/005-ml-cls-metrics.png)
 
 ### 4) Feature importance & export
-![Random Forest feature importance](images/007-feature-importance.png)
-![Download predictions CSV](images/008-download.png)
+![Random Forest feature importance](images/006-feature-importance.png)
+![Download predictions CSV](images/007-download.png)
 
 ## How to Run
 ```bash
