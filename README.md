@@ -3,7 +3,7 @@
 
 Interactive dashboard for EDA and quick ML experiments (regression/classification).
 
-🚀 **[Live Demo on Streamlit Cloud](https://streamlit.app/yourusername/streamlit-ds-dashboard)**  
+🚀 **[Live Demo on Streamlit Cloud](https://pythonmovierental1-aibbzdydfswrj35xh3gv4k.streamlit.app/)**  
 📊 Explore datasets, run ML models, and download predictions!
 
 
