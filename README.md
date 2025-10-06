@@ -16,9 +16,9 @@ Interactive dashboard for EDA and quick ML experiments (regression/classificatio
 ### 1) Overview & dataset selection
 ![Overview – dataset selection](images/001-overview.png)
 
-### 2) EDA – histograme și corelații
+### 2) EDA – Histograms & Correlations
 ![Histogram – numeric column](images/002-eda-hist.png)
-### 3) Configurare ML & metrici
+### 3) ML Configuration & Metrics
 ![ML panel before training](images/003-ml-config.png)
 ![Regression metrics (MAE, RMSE, R²)](images/004-ml-reg-metrics.png)
 ![Classification metrics & confusion matrix](images/005-ml-cls-metrics.png)
